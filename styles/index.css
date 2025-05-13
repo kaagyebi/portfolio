@@ -1,13 +1,47 @@
 nav {
-    background-color: #0779E4;
+    /* background-color: #0779E4; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+}
+
+.nav-items{
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+.hero{
+    background-image: url(../images/asset\ 0.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
+.hero-content{
+    width: 80%;
+    margin: 10%;
+}
 .text-white {
     color: white;
+}
+
+.bio{
+    color: white;
+    width: 60%;
+
 }
 
 .text-bold {
