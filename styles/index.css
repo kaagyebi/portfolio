@@ -1,5 +1,6 @@
+/* Navigation Area */
 nav {
-    /* background-color: #0779E4; */
+    background-color: #0779E4;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -17,11 +18,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
-
+/* Hero Section */
 .hero{
-    background-image: url(../images/asset\ 0.jpeg);
+    background-image: url(../images/asset0.jpeg);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -41,7 +41,6 @@ nav {
 .bio{
     color: white;
     width: 60%;
-
 }
 
 .text-bold {
