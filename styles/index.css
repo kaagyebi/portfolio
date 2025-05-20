@@ -46,3 +46,35 @@ nav {
 .text-bold {
     font-weight: bold;
 }
+
+.hero h1{
+    font-size: 40pt;
+    line-height: 72px;
+    color: white;
+}
+
+.hero-content greet{
+    font-size: 10pt;
+    color:#0779E4;
+    background-color: white;
+
+}
+
+.button1{ 
+    background-color: #0779E4;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 0px;
+}
+.button2 {
+    background-color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 0px;
+}
